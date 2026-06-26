@@ -101,11 +101,3 @@ python src/test_extractor.py
 
 * **First Run**: The system will parse the PDF, run image summarization, and build the local indexes.
 * **Subsequent Runs**: It will detect the existing indexes and ask if you want to load them directly, saving time and API tokens.
-
----
-
-## ⚠️ Configuration Notes
-
-The project connects to the following models by default. You can adjust these depending on API availability in [src/image_summarizer.py](file:///c:/Users/Rahul%20Nath/Desktop/New%20folder%20(11)/src/image_summarizer.py) and [src/rag_chain.py](file:///c:/Users/Rahul%20Nath/Desktop/New%20folder%20(11)/src/rag_chain.py):
-* **Vision Model**: `llama-3.2-11b-vision-preview` (Used for summarizing charts and architectures).
-* **Text LLM**: `llama3-70b-8192` (Used for generating final answers).
