@@ -1,0 +1,10 @@
+# Ignore local environment variables & secrets
+.env
+
+# Ignore python virtual environments
+myenv/
+__pycache__/
+*.pyc
+
+# Ignore all raw data and local databases
+data/

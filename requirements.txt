@@ -1,0 +1,10 @@
+pymupdf4llm
+langchain-text-splitters
+langchain
+langchain-groq
+langchain-chroma
+langchain_huggingface
+langchain-core
+langchain-community
+sentence-transformers
+python-dotenv
